@@ -1,0 +1,8 @@
+# Tester la recherche (curl)
+curl -X POST -d "q=alice" https://<172.20.10.2:3000>/search
+
+# Tester admin token
+curl "https://<172.20.10.2:3000>/admin?token=admintoken123"
+
+# Télécharger le flag
+curl -O https://<172.20.10.2:3000>/flag
