@@ -7,7 +7,7 @@ curl "https://<172.20.10.2:3000>/admin?token=admintoken123"
 # Télécharger le flag
 curl -O https://<172.20.10.2:3000>/flag
 
-# Insallation des modules
+# Installation des modules
 npm install helmet
 npm install bcrpyt
 npm install express
